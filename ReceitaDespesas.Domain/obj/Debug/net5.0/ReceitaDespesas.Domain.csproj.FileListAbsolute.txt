@@ -1,0 +1,12 @@
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Domain\bin\Debug\net5.0\ReceitaDespesas.Domain.deps.json
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Domain\bin\Debug\net5.0\ReceitaDespesas.Domain.dll
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Domain\bin\Debug\net5.0\ref\ReceitaDespesas.Domain.dll
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Domain\bin\Debug\net5.0\ReceitaDespesas.Domain.pdb
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Domain\obj\Debug\net5.0\ReceitaDespesas.Domain.csproj.AssemblyReference.cache
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Domain\obj\Debug\net5.0\ReceitaDespesas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Domain\obj\Debug\net5.0\ReceitaDespesas.Domain.AssemblyInfoInputs.cache
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Domain\obj\Debug\net5.0\ReceitaDespesas.Domain.AssemblyInfo.cs
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Domain\obj\Debug\net5.0\ReceitaDespesas.Domain.csproj.CoreCompileInputs.cache
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Domain\obj\Debug\net5.0\ReceitaDespesas.Domain.dll
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Domain\obj\Debug\net5.0\ref\ReceitaDespesas.Domain.dll
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Domain\obj\Debug\net5.0\ReceitaDespesas.Domain.pdb

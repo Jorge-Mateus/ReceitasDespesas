@@ -1,0 +1,17 @@
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\bin\Debug\net5.0\ReceitaDespesas.Application.deps.json
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\bin\Debug\net5.0\ReceitaDespesas.Application.dll
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\bin\Debug\net5.0\ref\ReceitaDespesas.Application.dll
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\bin\Debug\net5.0\ReceitaDespesas.Application.pdb
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\obj\Debug\net5.0\ReceitaDespesas.Application.csproj.AssemblyReference.cache
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\obj\Debug\net5.0\ReceitaDespesas.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\obj\Debug\net5.0\ReceitaDespesas.Application.AssemblyInfoInputs.cache
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\obj\Debug\net5.0\ReceitaDespesas.Application.AssemblyInfo.cs
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\obj\Debug\net5.0\ReceitaDespesas.Application.csproj.CoreCompileInputs.cache
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\obj\Debug\net5.0\ReceitaDespesas.Application.dll
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\obj\Debug\net5.0\ref\ReceitaDespesas.Application.dll
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\obj\Debug\net5.0\ReceitaDespesas.Application.pdb
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\bin\Debug\net5.0\ReceitaDespesas.Domain.dll
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\bin\Debug\net5.0\ReceitaDespesas.Persistence.dll
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\bin\Debug\net5.0\ReceitaDespesas.Domain.pdb
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\bin\Debug\net5.0\ReceitaDespesas.Persistence.pdb
+E:\Usuários\jorge.nascimento\Documents\GitHub\ReceitasDespesas\ReceitaDespesas.Application\obj\Debug\net5.0\ReceitaDespesas.Application.csproj.CopyComplete

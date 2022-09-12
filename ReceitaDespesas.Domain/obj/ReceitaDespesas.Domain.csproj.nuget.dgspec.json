@@ -1,31 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jorge\\source\\repos\\ReceitasDespesas\\ReceitaDespesas.Domain\\ReceitaDespesas.Domain.csproj": {}
+    "E:\\Usuários\\jorge.nascimento\\Documents\\GitHub\\ReceitasDespesas\\ReceitaDespesas.Domain\\ReceitaDespesas.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jorge\\source\\repos\\ReceitasDespesas\\ReceitaDespesas.Domain\\ReceitaDespesas.Domain.csproj": {
+    "E:\\Usuários\\jorge.nascimento\\Documents\\GitHub\\ReceitasDespesas\\ReceitaDespesas.Domain\\ReceitaDespesas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jorge\\source\\repos\\ReceitasDespesas\\ReceitaDespesas.Domain\\ReceitaDespesas.Domain.csproj",
+        "projectUniqueName": "E:\\Usuários\\jorge.nascimento\\Documents\\GitHub\\ReceitasDespesas\\ReceitaDespesas.Domain\\ReceitaDespesas.Domain.csproj",
         "projectName": "ReceitaDespesas.Domain",
-        "projectPath": "C:\\Users\\Jorge\\source\\repos\\ReceitasDespesas\\ReceitaDespesas.Domain\\ReceitaDespesas.Domain.csproj",
-        "packagesPath": "C:\\Users\\Jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jorge\\source\\repos\\ReceitasDespesas\\ReceitaDespesas.Domain\\obj\\",
+        "projectPath": "E:\\Usuários\\jorge.nascimento\\Documents\\GitHub\\ReceitasDespesas\\ReceitaDespesas.Domain\\ReceitaDespesas.Domain.csproj",
+        "packagesPath": "E:\\Usuários\\jorge.nascimento\\.nuget\\packages\\",
+        "outputPath": "E:\\Usuários\\jorge.nascimento\\Documents\\GitHub\\ReceitasDespesas\\ReceitaDespesas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "E:\\Usuários\\jorge.nascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\RPA\\Biblioteca": {},
+          "T:\\NUCLEOS\\NDSI\\Biblioteca RPA": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReceitaDespesas.Domain\ReceitaDespesas.Domain.csproj" />
+    <ProjectReference Include="..\ReceitaDespesas.Persistence\ReceitaDespesas.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
