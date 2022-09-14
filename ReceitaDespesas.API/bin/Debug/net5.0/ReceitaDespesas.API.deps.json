@@ -1748,6 +1748,7 @@
       },
       "ReceitaDespesas.Application/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.1.1",
           "ReceitaDespesas.Domain": "1.0.0",
           "ReceitaDespesas.Persistence": "1.0.0"
         },

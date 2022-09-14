@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReceitaDespesas.Application.Services
+    namespace ReceitaDespesas.Application.Services
 {
     public class ReceitaService : IReceitaService
     {

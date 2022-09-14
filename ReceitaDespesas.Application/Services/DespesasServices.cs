@@ -14,13 +14,13 @@ namespace DespesasDespesas.Application.Services
     public class DespesasServices : IDespesasServices
     {
         private readonly IGeralPersist _geralPersist;
-        private readonly IDespesasServices _despesasServices;
+        private readonly IDespesasPersist _despesasPersist;
         private readonly IMapper _mapper;
 
-        public DespesasServices(IGeralPersist geralPersist, IDespesasServices despesasServices, IMapper mapper)
+        public DespesasServices(IGeralPersist geralPersist, IDespesasPersist despesasPersist, IMapper mapper)
         {
             _geralPersist = geralPersist;
-            _despesasServices = despesasServices;
+            _despesasPersist = despesasPersist;
             _mapper = mapper;
         }
         public async Task<DespesasDtos> AddDespesas(DespesasDtos model)
@@ -33,7 +33,7 @@ namespace DespesasDespesas.Application.Services
 
                 if (await _geralPersist.SaveChangeAsync())
                 {
-                    var retorno = await _despesasServices.GetDespesasIdAsync(Despesas.ID, false);
+                    var retorno = await _despesasPersist.GetDespesasIdAsync(Despesas.ID, false);
 
                     return _mapper.Map<DespesasDtos>(retorno);
                 }
@@ -50,7 +50,7 @@ namespace DespesasDespesas.Application.Services
         {
             try
             {
-                var despesa = await _despesasServices.GetDespesasIdAsync(id);
+                var despesa = await _despesasPersist.GetDespesasIdAsync(id);
                 if (despesa == null) return null;
 
                 model.ID = despesa.ID;
@@ -61,7 +61,7 @@ namespace DespesasDespesas.Application.Services
 
                 if (await _geralPersist.SaveChangeAsync())
                 {
-                    var retorno = await _despesasServices.GetDespesasIdAsync(despesa.ID, false);
+                    var retorno = await _despesasPersist.GetDespesasIdAsync(despesa.ID, false);
                     return _mapper.Map<DespesasDtos>(retorno);
                 }
 
@@ -76,10 +76,10 @@ namespace DespesasDespesas.Application.Services
         {
             try
             {
-                var Despesas = await _despesasServices.GetDespesasIdAsync(id, false);
-                if (Despesas == null) throw new Exception("Despesas para delete não encontrado.");
+                var despesas = await _despesasPersist.GetDespesasIdAsync(id, false);
+                if (despesas == null) throw new Exception("Despesas para delete não encontrado.");
 
-                _geralPersist.Delete<Despesas>(Despesas);
+                _geralPersist.Delete<Despesas>(despesas);
                 return await _geralPersist.SaveChangeAsync();
             }
             catch (Exception ex)
@@ -92,7 +92,7 @@ namespace DespesasDespesas.Application.Services
         {
             try
             {
-                var Despesas = await _despesasServices.GetAllDespesasByDescricaoAsync(descricao, include);
+                var Despesas = await _despesasPersist.GetAllDespesasByDescricaoAsync(descricao, include);
                 if (Despesas == null) return null;
 
                 var resultado = _mapper.Map<DespesasDtos[]>(Despesas);
@@ -107,7 +107,7 @@ namespace DespesasDespesas.Application.Services
         {
             try
             {
-                var Despesas = await _despesasServices.GetDespesasIdAsync(id, include);
+                var Despesas = await _despesasPersist.GetDespesasIdAsync(id, include);
                 if (Despesas == null) return null;
                 else
                 {
@@ -127,7 +127,7 @@ namespace DespesasDespesas.Application.Services
         {
             try
             {
-                var Despesas = await _despesasServices.GetAllDespesasByAsync(include);
+                var Despesas = await _despesasPersist.GetAllDespesasByAsync(include);
                 if (Despesas == null) return null;
 
                 var resultado = _mapper.Map<DespesasDtos[]>(Despesas);
